@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ozone Therapy - SEGA Naturopathy Clinic</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<script type="module" src="https://static.rocket.new/rocket-web.js?_cfg=https%3A%2F%2Fseganatur3748back.builtwithrocket.new&_be=https%3A%2F%2Fapplication.rocket.new&_v=0.1.5"></script>
+</head>
+<body class="bg-background font-sans">
+    <!-- Fixed Header -->
+    <header class="fixed top-0 left-0 right-0 bg-primary-600 shadow-lg z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo -->
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                             <img style="width: 48px; height:40px"src="../logo.png" />
+                    
+                    </div>
+                    <div class="ml-3">
+                        <h1 class="text-white font-heading font-semibold text-lg">SEGA Naturopathy</h1>
+                        <p class="text-primary-200 text-xs">Clinic & Wellness Center</p>
+                    </div>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="hidden md:flex space-x-8">
+                    <a href="home_page.html" class="text-white hover:text-secondary-300 px-3 py-2 rounded-md text-sm font-medium transition-colors">Home</a>
+                    <a href="about_us_page.html" class="text-white hover:text-secondary-300 px-3 py-2 rounded-md text-sm font-medium transition-colors">About Us</a>
+                    <a href="we_treat_treatment_categories.html" class="text-white hover:text-secondary-300 px-3 py-2 rounded-md text-sm font-medium transition-colors">We Treat</a>
+                    <a href="therapies_services_overview.html" class="text-secondary-400 hover:text-secondary-300 px-3 py-2 rounded-md text-sm font-medium transition-colors border-b-2 border-secondary-400">Therapies</a>
+                    <a href="contact_us_page.html" class="text-white hover:text-secondary-300 px-3 py-2 rounded-md text-sm font-medium transition-colors">Contact Us</a>
+                </nav>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden">
+                    <button id="mobile-menu-button" class="text-white hover:text-secondary-300 focus:outline-none focus:text-secondary-300">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="md:hidden hidden bg-primary-700">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="home_page.html" class="text-white hover:text-secondary-300 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                <a href="about_us_page.html" class="text-white hover:text-secondary-300 block px-3 py-2 rounded-md text-base font-medium">About Us</a>
+                <a href="we_treat_treatment_categories.html" class="text-white hover:text-secondary-300 block px-3 py-2 rounded-md text-base font-medium">We Treat</a>
+                <a href="therapies_services_overview.html" class="text-secondary-400 block px-3 py-2 rounded-md text-base font-medium border-l-4 border-secondary-400">Therapies</a>
+                <a href="contact_us_page.html" class="text-white hover:text-secondary-300 block px-3 py-2 rounded-md text-base font-medium">Contact Us</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="pt-16">
+        <!-- Breadcrumb Navigation -->
+        <section class="bg-gray-50 py-4">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <nav class="flex items-center space-x-2 text-sm">
+                    <a href="home_page.html" class="text-text-secondary hover:text-primary-600 transition-colors">Home</a>
+                    <svg class="w-4 h-4 text-text-secondary" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <a href="therapies_services_overview.html" class="text-text-secondary hover:text-primary-600 transition-colors">Therapies</a>
+                    <svg class="w-4 h-4 text-text-secondary" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"/>
+                    </svg>
+                    <span class="text-primary-600 font-medium">Ozone Therapy</span>
+                </nav>
+            </div>
+        </section>
+
+        <!-- Hero Section -->
+        <section class="bg-gradient-to-br from-primary-50 to-accent-50 py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h1 class="text-4xl lg:text-5xl font-heading font-bold text-text-primary mb-4">
+                            Ozone Therapy
+                        </h1>
+                        <p class="text-xl text-text-secondary mb-6 leading-relaxed">
+                            Advanced medical ozone therapy that enhances oxygen delivery, boosts immune function, and promotes natural healing processes through scientifically proven methods.
+                        </p>
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="#booking-form" class="bg-secondary-600 hover:bg-secondary-700 text-white px-6 py-3 rounded-lg font-medium transition-colors shadow-lg">
+                                Book Consultation
+                            </a>
+                            <a href="#procedure" class="border-2 border-primary-600 text-primary-600 hover:bg-primary-600 hover:text-white px-6 py-3 rounded-lg font-medium transition-colors">
+                                Learn Procedure
+                            </a>
+                        </div>
+                    </div>
+                    <div class="relative">
+                        <img src="https://images.pexels.com/photos/4386466/pexels-photo-4386466.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Ozone therapy treatment session" class="rounded-2xl shadow-2xl w-full h-96 object-cover" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Main Content Area -->
+        <section class="py-16">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                    <!-- Main Content -->
+                    <div class="lg:col-span-2 space-y-12">
+                        <!-- Therapy Overview -->
+                        <div id="overview" class="bg-white rounded-xl shadow-card p-8">
+                            <h2 class="text-3xl font-heading font-bold text-text-primary mb-6">Therapy Overview</h2>
+                            <div class="prose prose-lg max-w-none">
+                                <p class="text-text-secondary leading-relaxed mb-6">
+                                    Ozone therapy is a cutting-edge medical treatment that utilizes medical-grade ozone (O₃) to enhance the body's natural healing processes. This therapy works by increasing oxygen utilization at the cellular level, stimulating the immune system, and providing powerful antimicrobial effects.
+                                </p>
+                                <p class="text-text-secondary leading-relaxed mb-6">
+                                    Our certified practitioners use state-of-the-art ozone generators to create precise concentrations of medical ozone, ensuring safe and effective treatment protocols tailored to individual patient needs.
+                                </p>
+                                
+                                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-8">
+                                    <div class="bg-accent-50 p-6 rounded-lg">
+                                        <h3 class="text-xl font-heading font-semibold text-accent-700 mb-3">Key Benefits</h3>
+                                        <ul class="space-y-2 text-text-secondary">
+                                            <li class="flex items-start">
+                                                <svg class="w-5 h-5 text-accent-600 mt-1 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                </svg>
+                                                Enhanced immune function
+                                            </li>
+                                            <li class="flex items-start">
+                                                <svg class="w-5 h-5 text-accent-600 mt-1 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                </svg>
+                                                Improved circulation
+                                            </li>
+                                            <li class="flex items-start">
+                                                <svg class="w-5 h-5 text-accent-600 mt-1 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                </svg>
+                                                Antimicrobial effects
+                                            </li>
+                                            <li class="flex items-start">
+                                                <svg class="w-5 h-5 text-accent-600 mt-1 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                </svg>
+                                                Cellular detoxification
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div class="bg-primary-50 p-6 rounded-lg">
+                                        <h3 class="text-xl font-heading font-semibold text-primary-700 mb-3">Treatment Methods</h3>
+                                        <ul class="space-y-2 text-text-secondary">
+                                            <li class="flex items-start">
+                                                <svg class="w-5 h-5 text-primary-600 mt-1 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                </svg>
+                                                Ozonated water therapy
+                                            </li>
+                                            <li class="flex items-start">
+                                                <svg class="w-5 h-5 text-primary-600 mt-1 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                </svg>
+                                                Ozone insufflation
+                                            </li>
+                                            <li class="flex items-start">
+                                                <svg class="w-5 h-5 text-primary-600 mt-1 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                </svg>
+                                                Topical ozone application
+                                            </li>
+                                            <li class="flex items-start">
+                                                <svg class="w-5 h-5 text-primary-600 mt-1 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                                </svg>
+                                                Ozone sauna therapy
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Scientific Background -->
+                        <div id="science" class="bg-white rounded-xl shadow-card p-8">
+                            <h2 class="text-3xl font-heading font-bold text-text-primary mb-6">Scientific Background</h2>
+                            <div class="space-y-6">
+                                <p class="text-text-secondary leading-relaxed">
+                                    Ozone therapy has been extensively researched and documented in medical literature for over a century. The therapeutic effects of ozone are based on its ability to modulate the immune system, improve oxygen utilization, and provide selective antimicrobial action.
+                                </p>
+                                
+                                <div class="bg-gray-50 p-6 rounded-lg">
+                                    <h3 class="text-xl font-heading font-semibold text-text-primary mb-4">Mechanism of Action</h3>
+                                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                                        <div>
+                                            <h4 class="font-semibold text-text-primary mb-2">Cellular Level</h4>
+                                            <p class="text-text-secondary text-sm">
+                                                Ozone stimulates the production of antioxidant enzymes and enhances cellular metabolism through improved oxygen utilization.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <h4 class="font-semibold text-text-primary mb-2">Immune System</h4>
+                                            <p class="text-text-secondary text-sm">
+                                                Modulates immune response by activating white blood cells and enhancing the body's natural defense mechanisms.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Treatment Procedure -->
+                        <div id="procedure" class="bg-white rounded-xl shadow-card p-8">
+                            <h2 class="text-3xl font-heading font-bold text-text-primary mb-6">Treatment Procedure</h2>
+                            
+                            <div class="space-y-6">
+                                <!-- Step 1 -->
+                                <div class="border border-border rounded-lg">
+                                    <button class="w-full text-left p-6 focus:outline-none procedure-toggle" data-target="step1">
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <div class="w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mr-4">1</div>
+                                                <h3 class="text-xl font-heading font-semibold text-text-primary">Initial Consultation & Assessment</h3>
+                                            </div>
+                                            <svg class="w-5 h-5 text-text-secondary transform transition-transform procedure-icon" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                    <div id="step1" class="hidden px-6 pb-6">
+                                        <div class="pl-12">
+                                            <p class="text-text-secondary mb-4">
+                                                Comprehensive health evaluation including medical history review, current symptoms assessment, and determination of treatment suitability.
+                                            </p>
+                                            <ul class="list-disc list-inside text-text-secondary space-y-1">
+                                                <li>Medical history documentation</li>
+                                                <li>Current medication review</li>
+                                                <li>Contraindication screening</li>
+                                                <li>Treatment goal setting</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Step 2 -->
+                                <div class="border border-border rounded-lg">
+                                    <button class="w-full text-left p-6 focus:outline-none procedure-toggle" data-target="step2">
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <div class="w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mr-4">2</div>
+                                                <h3 class="text-xl font-heading font-semibold text-text-primary">Pre-Treatment Preparation</h3>
+                                            </div>
+                                            <svg class="w-5 h-5 text-text-secondary transform transition-transform procedure-icon" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                    <div id="step2" class="hidden px-6 pb-6">
+                                        <div class="pl-12">
+                                            <p class="text-text-secondary mb-4">
+                                                Patient preparation and equipment setup to ensure optimal treatment conditions and safety protocols.
+                                            </p>
+                                            <div class="bg-accent-50 p-4 rounded-lg">
+                                                <h4 class="font-semibold text-accent-700 mb-2">Patient Guidelines</h4>
+                                                <ul class="list-disc list-inside text-text-secondary space-y-1 text-sm">
+                                                    <li>Avoid antioxidant supplements 24 hours before treatment</li>
+                                                    <li>Stay well-hydrated</li>
+                                                    <li>Wear comfortable clothing</li>
+                                                    <li>Inform about any recent medication changes</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Step 3 -->
+                                <div class="border border-border rounded-lg">
+                                    <button class="w-full text-left p-6 focus:outline-none procedure-toggle" data-target="step3">
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <div class="w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mr-4">3</div>
+                                                <h3 class="text-xl font-heading font-semibold text-text-primary">Ozone Administration</h3>
+                                            </div>
+                                            <svg class="w-5 h-5 text-text-secondary transform transition-transform procedure-icon" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                    <div id="step3" class="hidden px-6 pb-6">
+                                        <div class="pl-12">
+                                            <p class="text-text-secondary mb-4">
+                                                Precise ozone delivery using medical-grade equipment with continuous monitoring for safety and efficacy.
+                                            </p>
+                                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                                <div class="bg-primary-50 p-4 rounded-lg">
+                                                    <h4 class="font-semibold text-primary-700 mb-2">Duration</h4>
+                                                    <p class="text-text-secondary text-sm">30-60 minutes depending on treatment method</p>
+                                                </div>
+                                                <div class="bg-secondary-50 p-4 rounded-lg">
+                                                    <h4 class="font-semibold text-secondary-700 mb-2">Monitoring</h4>
+                                                    <p class="text-text-secondary text-sm">Continuous vital signs and comfort assessment</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Step 4 -->
+                                <div class="border border-border rounded-lg">
+                                    <button class="w-full text-left p-6 focus:outline-none procedure-toggle" data-target="step4">
+                                        <div class="flex items-center justify-between">
+                                            <div class="flex items-center">
+                                                <div class="w-8 h-8 bg-primary-600 text-white rounded-full flex items-center justify-center text-sm font-semibold mr-4">4</div>
+                                                <h3 class="text-xl font-heading font-semibold text-text-primary">Post-Treatment Care</h3>
+                                            </div>
+                                            <svg class="w-5 h-5 text-text-secondary transform transition-transform procedure-icon" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                    <div id="step4" class="hidden px-6 pb-6">
+                                        <div class="pl-12">
+                                            <p class="text-text-secondary mb-4">
+                                                Recovery monitoring and aftercare instructions to optimize treatment benefits and ensure patient comfort.
+                                            </p>
+                                            <div class="bg-warning-50 p-4 rounded-lg">
+                                                <h4 class="font-semibold text-warning-700 mb-2">Important Aftercare</h4>
+                                                <ul class="list-disc list-inside text-text-secondary space-y-1 text-sm">
+                                                    <li>Drink plenty of water</li>
+                                                    <li>Rest for 30 minutes post-treatment</li>
+                                                    <li>Avoid strenuous activity for 2 hours</li>
+                                                    <li>Report any unusual symptoms immediately</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Conditions Treated -->
+                        <div id="conditions" class="bg-white rounded-xl shadow-card p-8">
+                            <h2 class="text-3xl font-heading font-bold text-text-primary mb-6">Conditions We Treat</h2>
+                            <p class="text-text-secondary mb-6">
+                                Ozone therapy has shown effectiveness in treating various health conditions. Our experienced practitioners can help determine if ozone therapy is suitable for your specific condition.
+                            </p>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                <a href="we_treat_treatment_categories.html" class="bg-accent-50 hover:bg-accent-100 p-4 rounded-lg transition-colors">
+                                    <h3 class="font-semibold text-accent-700 mb-2">Immune Disorders</h3>
+                                    <p class="text-text-secondary text-sm">Chronic fatigue, autoimmune conditions</p>
+                                </a>
+                                <a href="we_treat_treatment_categories.html" class="bg-primary-50 hover:bg-primary-100 p-4 rounded-lg transition-colors">
+                                    <h3 class="font-semibold text-primary-700 mb-2">Circulatory Issues</h3>
+                                    <p class="text-text-secondary text-sm">Poor circulation, peripheral artery disease</p>
+                                </a>
+                                <a href="we_treat_treatment_categories.html" class="bg-secondary-50 hover:bg-secondary-100 p-4 rounded-lg transition-colors">
+                                    <h3 class="font-semibold text-secondary-700 mb-2">Chronic Infections</h3>
+                                    <p class="text-text-secondary text-sm">Viral, bacterial, and fungal infections</p>
+                                </a>
+                                <a href="we_treat_treatment_categories.html" class="bg-accent-50 hover:bg-accent-100 p-4 rounded-lg transition-colors">
+                                    <h3 class="font-semibold text-accent-700 mb-2">Wound Healing</h3>
+                                    <p class="text-text-secondary text-sm">Diabetic ulcers, slow-healing wounds</p>
+                                </a>
+                                <a href="we_treat_treatment_categories.html" class="bg-primary-50 hover:bg-primary-100 p-4 rounded-lg transition-colors">
+                                    <h3 class="font-semibold text-primary-700 mb-2">Respiratory Conditions</h3>
+                                    <p class="text-text-secondary text-sm">Asthma, COPD, respiratory infections</p>
+                                </a>
+                                <a href="we_treat_treatment_categories.html" class="bg-secondary-50 hover:bg-secondary-100 p-4 rounded-lg transition-colors">
+                                    <h3 class="font-semibold text-secondary-700 mb-2">Metabolic Disorders</h3>
+                                    <p class="text-text-secondary text-sm">Diabetes complications, metabolic syndrome</p>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Patient Testimonials -->
+                        <div id="testimonials" class="bg-white rounded-xl shadow-card p-8">
+                            <h2 class="text-3xl font-heading font-bold text-text-primary mb-6">Patient Experiences</h2>
+                            
+                            <div class="space-y-6">
+                                <div class="bg-gray-50 p-6 rounded-lg">
+                                    <div class="flex items-center mb-4">
+                                        <div class="flex text-yellow-400">
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                        </div>
+                                    </div>
+                                    <p class="text-text-secondary mb-4 italic">
+                                        "After 6 sessions of ozone therapy, my chronic fatigue has significantly improved. I have more energy throughout the day and feel much healthier overall. The treatment was comfortable and the staff was very professional."
+                                    </p>
+                                    <div class="flex items-center">
+                                        <img src="https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg" alt="Patient testimonial" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                        <div>
+                                            <h4 class="font-semibold text-text-primary">Rajesh Kumar</h4>
+                                            <p class="text-sm text-text-secondary">Software Engineer</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="bg-gray-50 p-6 rounded-lg">
+                                    <div class="flex items-center mb-4">
+                                        <div class="flex text-yellow-400">
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                            <svg class="w-5 h-5 fill-current" viewBox="0 0 20 20"><path d="M10 15l-5.878 3.09 1.123-6.545L.489 6.91l6.572-.955L10 0l2.939 5.955 6.572.955-4.756 4.635 1.123 6.545z"/></svg>
+                                        </div>
+                                    </div>
+                                    <p class="text-text-secondary mb-4 italic">
+                                        "The ozone therapy helped with my diabetic wound healing remarkably. What wasn't healing for months started showing improvement after just a few sessions. I'm grateful for this natural treatment option."
+                                    </p>
+                                    <div class="flex items-center">
+                                        <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Patient testimonial" class="w-12 h-12 rounded-full object-cover mr-4" loading="lazy" onerror="this.src='https://images.unsplash.com/photo-1584824486509-112e4181ff6b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'; this.onerror=null;" />
+                                        <div>
+                                            <h4 class="font-semibold text-text-primary">Priya Sharma</h4>
+                                            <p class="text-sm text-text-secondary">Teacher</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- FAQ Section -->
+                        <div id="faq" class="bg-white rounded-xl shadow-card p-8">
+                            <h2 class="text-3xl font-heading font-bold text-text-primary mb-6">Frequently Asked Questions</h2>
+                            
+                            <div class="space-y-4">
+                                <div class="border border-border rounded-lg">
+                                    <button class="w-full text-left p-6 focus:outline-none faq-toggle" data-target="faq1">
+                                        <div class="flex items-center justify-between">
+                                            <h3 class="text-lg font-semibold text-text-primary">Is ozone therapy safe?</h3>
+                                            <svg class="w-5 h-5 text-text-secondary transform transition-transform faq-icon" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                    <div id="faq1" class="hidden px-6 pb-6">
+                                        <p class="text-text-secondary">
+                                            Yes, when administered by trained professionals using medical-grade equipment, ozone therapy is very safe. We follow strict protocols and continuously monitor patients during treatment to ensure safety and comfort.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="border border-border rounded-lg">
+                                    <button class="w-full text-left p-6 focus:outline-none faq-toggle" data-target="faq2">
+                                        <div class="flex items-center justify-between">
+                                            <h3 class="text-lg font-semibold text-text-primary">How many sessions will I need?</h3>
+                                            <svg class="w-5 h-5 text-text-secondary transform transition-transform faq-icon" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                    <div id="faq2" class="hidden px-6 pb-6">
+                                        <p class="text-text-secondary">
+                                            The number of sessions varies depending on your condition and individual response. Typically, patients see improvement after 3-6 sessions, with some conditions requiring 10-15 sessions for optimal results. We'll create a personalized treatment plan for you.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="border border-border rounded-lg">
+                                    <button class="w-full text-left p-6 focus:outline-none faq-toggle" data-target="faq3">
+                                        <div class="flex items-center justify-between">
+                                            <h3 class="text-lg font-semibold text-text-primary">Are there any side effects?</h3>
+                                            <svg class="w-5 h-5 text-text-secondary transform transition-transform faq-icon" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                    <div id="faq3" class="hidden px-6 pb-6">
+                                        <p class="text-text-secondary">
+                                            Most patients experience no side effects. Some may feel slightly tired after the first few sessions as the body adjusts to increased oxygenation. This is temporary and typically resolves as treatment continues.
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="border border-border rounded-lg">
+                                    <button class="w-full text-left p-6 focus:outline-none faq-toggle" data-target="faq4">
+                                        <div class="flex items-center justify-between">
+                                            <h3 class="text-lg font-semibold text-text-primary">Can I combine ozone therapy with other treatments?</h3>
+                                            <svg class="w-5 h-5 text-text-secondary transform transition-transform faq-icon" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"/>
+                                            </svg>
+                                        </div>
+                                    </button>
+                                    <div id="faq4" class="hidden px-6 pb-6">
+                                        <p class="text-text-secondary">
+                                            Yes, ozone therapy works well in combination with other naturopathic treatments like nutrition therapy, yoga, and acupuncture. We'll coordinate with your other treatments to ensure the best possible outcomes.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="lg:col-span-1">
+                        <div class="sticky top-24 space-y-6">
+                            <!-- Therapy Benefits -->
+                            <div class="bg-white rounded-xl shadow-card p-6">
+                                <h3 class="text-xl font-heading font-bold text-text-primary mb-4">Therapy Benefits</h3>
+                                <ul class="space-y-3">
+                                    <li class="flex items-start">
+                                        <svg class="w-5 h-5 text-accent-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-text-secondary">Boosts immune system</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg class="w-5 h-5 text-accent-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-text-secondary">Improves circulation</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg class="w-5 h-5 text-accent-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-text-secondary">Accelerates healing</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg class="w-5 h-5 text-accent-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-text-secondary">Reduces inflammation</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <svg class="w-5 h-5 text-accent-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-text-secondary">Detoxifies cells</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Treatment Details -->
+                            <div class="bg-white rounded-xl shadow-card p-6">
+                                <h3 class="text-xl font-heading font-bold text-text-primary mb-4">Treatment Details</h3>
+                                <div class="space-y-4">
+                                    <div class="flex justify-between items-center py-2 border-b border-border-light">
+                                        <span class="text-text-secondary">Duration</span>
+                                        <span class="font-semibold text-text-primary">30-60 min</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2 border-b border-border-light">
+                                        <span class="text-text-secondary">Sessions</span>
+                                        <span class="font-semibold text-text-primary">3-15 sessions</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2 border-b border-border-light">
+                                        <span class="text-text-secondary">Frequency</span>
+                                        <span class="font-semibold text-text-primary">2-3 per week</span>
+                                    </div>
+                                    <div class="flex justify-between items-center py-2">
+                                        <span class="text-text-secondary">Recovery</span>
+                                        <span class="font-semibold text-text-primary">Immediate</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Contraindications -->
+                            <div class="bg-warning-50 rounded-xl border border-warning-200 p-6">
+                                <h3 class="text-xl font-heading font-bold text-warning-800 mb-4">Important Notes</h3>
+                                <div class="space-y-3">
+                                    <div class="flex items-start">
+                                        <svg class="w-5 h-5 text-warning-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-warning-800 text-sm">Not suitable for pregnant women</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-5 h-5 text-warning-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-warning-800 text-sm">Avoid if taking blood thinners</span>
+                                    </div>
+                                    <div class="flex items-start">
+                                        <svg class="w-5 h-5 text-warning-600 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                            <path fill-rule="evenodd" d="M8.257 3.099c.765-1.36 2.722-1.36 3.486 0l5.58 9.92c.75 1.334-.213 2.98-1.742 2.98H4.42c-1.53 0-2.493-1.646-1.743-2.98l5.58-9.92zM11 13a1 1 0 11-2 0 1 1 0 012 0zm-1-8a1 1 0 00-1 1v3a1 1 0 002 0V6a1 1 0 00-1-1z" clip-rule="evenodd"/>
+                                        </svg>
+                                        <span class="text-warning-800 text-sm">Consult for heart conditions</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pricing -->
+                            <div class="bg-primary-50 rounded-xl border border-primary-200 p-6">
+                                <h3 class="text-xl font-heading font-bold text-primary-800 mb-4">Pricing Information</h3>
+                                <div class="space-y-3">
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-primary-700">Single Session</span>
+                                        <span class="font-bold text-primary-800">₹2,500</span>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-primary-700">Package (5 sessions)</span>
+                                        <span class="font-bold text-primary-800">₹11,000</span>
+                                    </div>
+                                    <div class="flex justify-between items-center">
+                                        <span class="text-primary-700">Package (10 sessions)</span>
+                                        <span class="font-bold text-primary-800">₹20,000</span>
+                                    </div>
+                                    <div class="pt-3 border-t border-primary-200">
+                                        <p class="text-primary-700 text-sm">
+                                            <svg class="w-4 h-4 text-primary-600 inline mr-1" fill="currentColor" viewBox="0 0 20 20">
+                                                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"/>
+                                            </svg>
+                                            Free consultation included
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Consultation Booking Form -->
+        <section id="booking-form" class="py-16 bg-gray-50">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="bg-white rounded-2xl shadow-card-lg p-8">
+                    <div class="text-center mb-8">
+                        <h2 class="text-3xl font-heading font-bold text-text-primary mb-4">Book Your Ozone Therapy Consultation</h2>
+                        <p class="text-lg text-text-secondary">
+                            Schedule a consultation to discuss your specific needs and create a personalized treatment plan.
+                        </p>
+                    </div>
+
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="firstName" class="block text-sm font-medium text-text-primary mb-2">First Name *</label>
+                                <input type="text" id="firstName" name="firstName" required class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors" />
+                            </div>
+                            <div>
+                                <label for="lastName" class="block text-sm font-medium text-text-primary mb-2">Last Name *</label>
+                                <input type="text" id="lastName" name="lastName" required class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors" />
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-text-primary mb-2">Email Address *</label>
+                                <input type="email" id="email" name="email" required class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors" />
+                            </div>
+                            <div>
+                                <label for="phone" class="block text-sm font-medium text-text-primary mb-2">Phone Number *</label>
+                                <input type="tel" id="phone" name="phone" required class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors" />
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="condition" class="block text-sm font-medium text-text-primary mb-2">Primary Health Condition *</label>
+                            <select id="condition" name="condition" required class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors">
+                                <option value>Select your primary condition</option>
+                                <option value="chronic-fatigue">Chronic Fatigue</option>
+                                <option value="immune-disorders">Immune Disorders</option>
+                                <option value="circulation-issues">Circulation Issues</option>
+                                <option value="chronic-infections">Chronic Infections</option>
+                                <option value="wound-healing">Wound Healing</option>
+                                <option value="respiratory-conditions">Respiratory Conditions</option>
+                                <option value="metabolic-disorders">Metabolic Disorders</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+
+                        <div>
+                            <label for="symptoms" class="block text-sm font-medium text-text-primary mb-2">Describe Your Symptoms</label>
+                            <textarea id="symptoms" name="symptoms" rows="4" class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors" placeholder="Please describe your current symptoms and how long you've been experiencing them..."></textarea>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div>
+                                <label for="preferredDate" class="block text-sm font-medium text-text-primary mb-2">Preferred Date</label>
+                                <input type="date" id="preferredDate" name="preferredDate" class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors" />
+                            </div>
+                            <div>
+                                <label for="preferredTime" class="block text-sm font-medium text-text-primary mb-2">Preferred Time</label>
+                                <select id="preferredTime" name="preferredTime" class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors">
+                                    <option value>Select preferred time</option>
+                                    <option value="morning">Morning (9:00 AM - 12:00 PM)</option>
+                                    <option value="afternoon">Afternoon (12:00 PM - 4:00 PM)</option>
+                                    <option value="evening">Evening (4:00 PM - 7:00 PM)</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="medications" class="block text-sm font-medium text-text-primary mb-2">Current Medications</label>
+                            <textarea id="medications" name="medications" rows="3" class="w-full px-4 py-3 border border-border rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-primary-500 transition-colors" placeholder="Please list any medications you're currently taking..."></textarea>
+                        </div>
+
+                        <div class="flex items-start">
+                            <input type="checkbox" id="consent" name="consent" required class="mt-1 mr-3 h-4 w-4 text-primary-600 focus:ring-primary-500 border-border rounded" />
+                            <label for="consent" class="text-sm text-text-secondary">
+                                I consent to the collection and use of my personal information for the purpose of scheduling and providing healthcare services. I understand that all information will be kept confidential. *
+                            </label>
+                        </div>
+
+                        <div class="text-center">
+                            <button type="submit" class="bg-secondary-600 hover:bg-secondary-700 text-white px-8 py-4 rounded-lg font-medium text-lg transition-colors shadow-lg hover:shadow-xl">
+                                Schedule Consultation
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Related Therapies -->
+        <section class="py-16 bg-surface">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12">
+                    <h2 class="text-3xl lg:text-4xl font-heading font-bold text-text-primary mb-4">
+                        Related Therapies
+                    </h2>
+                    <p class="text-lg text-text-secondary max-w-2xl mx-auto">
+                        Explore other natural healing therapies that complement ozone therapy
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Therapy Card 1 -->
+                    <div class="bg-white rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 p-6 card-hover">
+                        <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-accent-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.94-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-semibold text-text-primary mb-3 text-center">Acupuncture</h3>
+                        <p class="text-text-secondary text-center mb-4">Traditional Chinese medicine technique using fine needles to stimulate healing points</p>
+                        <div class="text-center">
+                            <a href="therapies_services_overview.html" class="text-secondary-600 hover:text-secondary-700 font-medium">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <!-- Therapy Card 2 -->
+                    <div class="bg-white rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 p-6 card-hover">
+                        <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-primary-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-semibold text-text-primary mb-3 text-center">Yoga Therapy</h3>
+                        <p class="text-text-secondary text-center mb-4">Therapeutic yoga sequences designed to address specific health conditions</p>
+                        <div class="text-center">
+                            <a href="therapies_services_overview.html" class="text-secondary-600 hover:text-secondary-700 font-medium">Learn More →</a>
+                        </div>
+                    </div>
+
+                    <!-- Therapy Card 3 -->
+                    <div class="bg-white rounded-xl shadow-card hover:shadow-card-hover transition-all duration-300 p-6 card-hover">
+                        <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-secondary-600" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-xl font-heading font-semibold text-text-primary mb-3 text-center">Nutrition Therapy</h3>
+                        <p class="text-text-secondary text-center mb-4">Personalized nutrition plans to support healing and optimal health</p>
+                        <div class="text-center">
+                            <a href="therapies_services_overview.html" class="text-secondary-600 hover:text-secondary-700 font-medium">Learn More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Clinic Info -->
+                <div class="md:col-span-2">
+                    <div class="flex items-center mb-4">
+                        <svg class="h-8 w-8 text-secondary-400" viewBox="0 0 40 40" fill="currentColor">
+                            <circle cx="20" cy="20" r="18" fill="none" stroke="currentColor" stroke-width="2"/>
+                            <path d="M12 20h16M20 12v16" stroke="currentColor" stroke-width="2"/>
+                            <circle cx="20" cy="20" r="3" fill="currentColor"/>
+                        </svg>
+                        <div class="ml-3">
+                            <h3 class="text-xl font-heading font-semibold">SEGA Naturopathy</h3>
+                            <p class="text-gray-400 text-sm">Clinic & Wellness Center</p>
+                        </div>
+                    </div>
+                    <p class="text-gray-400 mb-4 leading-relaxed">
+                        Dedicated to providing natural healthcare solutions through naturopathy, yoga, and ozone therapy. 
+                        Our holistic approach focuses on treating the root cause of health issues.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-secondary-400 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-secondary-400 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-secondary-400 transition-colors">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="home_page.html" class="text-gray-400 hover:text-secondary-400 transition-colors">Home</a></li>
+                        <li><a href="about_us_page.html" class="text-gray-400 hover:text-secondary-400 transition-colors">About Us</a></li>
+                        <li><a href="we_treat_treatment_categories.html" class="text-gray-400 hover:text-secondary-400 transition-colors">We Treat</a></li>
+                        <li><a href="therapies_services_overview.html" class="text-gray-400 hover:text-secondary-400 transition-colors">Therapies</a></li>
+                        <li><a href="contact_us_page.html" class="text-gray-400 hover:text-secondary-400 transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-4">Contact Info</h4>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <svg class="w-5 h-5 text-secondary-400 mt-1 mr-3 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"/>
+                            </svg>
+                            <div>
+                                <p class="text-gray-400 text-sm">74, Kongu Nagar, Opp to Alvernia School</p>
+                                <p class="text-gray-400 text-sm">Ramanathapuram, Coimbatore-641045</p>
+                            </div>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-secondary-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            <p class="text-gray-400 text-sm">+91 63815 39209 | +91 94889 17609</p>
+                        </div>
+                        <div class="flex items-center">
+                            <svg class="w-5 h-5 text-secondary-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <p class="text-gray-400 text-sm">drdsarathy@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center">
+                <p class="text-gray-400 text-sm">
+                    © 2025 SEGA Naturopathy Clinic. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.getElementById('mobile-menu').classList.add('hidden');
+            });
+        });
+
+        // Procedure Toggle Functionality
+        document.querySelectorAll('.procedure-toggle').forEach(button => {
+            button.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+                const targetElement = document.getElementById(targetId);
+                const icon = this.querySelector('.procedure-icon');
+                
+                if (targetElement.classList.contains('hidden')) {
+                    targetElement.classList.remove('hidden');
+                    icon.style.transform = 'rotate(180deg)';
+                } else {
+                    targetElement.classList.add('hidden');
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+        // FAQ Toggle Functionality
+        document.querySelectorAll('.faq-toggle').forEach(button => {
+            button.addEventListener('click', function() {
+                const targetId = this.getAttribute('data-target');
+                const targetElement = document.getElementById(targetId);
+                const icon = this.querySelector('.faq-icon');
+                
+                if (targetElement.classList.contains('hidden')) {
+                    targetElement.classList.remove('hidden');
+                    icon.style.transform = 'rotate(180deg)';
+                } else {
+                    targetElement.classList.add('hidden');
+                    icon.style.transform = 'rotate(0deg)';
+                }
+            });
+        });
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Form submission handling
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData);
+            
+            // Simple validation
+            if (!data.firstName || !data.lastName || !data.email || !data.phone || !data.condition) {
+                alert('Please fill in all required fields.');
+                return;
+            }
+            
+            if (!data.consent) {
+                alert('Please provide consent to proceed.');
+                return;
+            }
+            
+            // Simulate form submission
+            alert('Thank you for your consultation request! We will contact you within 24 hours to confirm your appointment.');
+            
+            // Reset form
+            this.reset();
+        });
+
+        // Set minimum date for appointment booking to today
+        const today = new Date().toISOString().split('T')[0];
+        document.getElementById('preferredDate').setAttribute('min', today);
+    </script>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+</body>
+</html>

@@ -2218,3 +2218,29 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.75rem;
   }
 }
+
+.whatsapp-float {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 100;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #25D366;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+}
+
+.whatsapp-float img {
+    width: 30px;
+    height: 30px;
+}
